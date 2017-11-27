@@ -2,7 +2,7 @@ package shipyard
 
 import (
 	"crypto/tls"
-	registry "github.com/shipyard/shipyard/registry/v2"
+	registry "github.com/opsforgeio/shipyard/registry/v2"
 	"strings"
 )
 

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gorilla/mux"
-	"github.com/shipyard/shipyard/dockerhub"
+	"github.com/opsforgeio/shipyard/dockerhub"
 )
 
 func (a *Api) hubWebhook(w http.ResponseWriter, r *http.Request) {

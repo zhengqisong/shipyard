@@ -1,8 +1,8 @@
 package api
 
 import (
-	log "github.com/Sirupsen/logrus"
-	"github.com/shipyard/shipyard/controller/mock_test"
+	log "github.com/sirupsen/logrus"
+	"github.com/opsforgeio/shipyard/controller/mock_test"
 )
 
 func getTestApi() (*Api, error) {

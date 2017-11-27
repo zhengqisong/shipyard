@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/shipyard/shipyard/auth"
-	"github.com/shipyard/shipyard/auth/ldap"
-	"github.com/shipyard/shipyard/controller/manager"
+	log "github.com/sirupsen/logrus"
+	"github.com/opsforgeio/shipyard/auth"
+	"github.com/opsforgeio/shipyard/auth/ldap"
+	"github.com/opsforgeio/shipyard/controller/manager"
 )
 
 func (a *Api) login(w http.ResponseWriter, r *http.Request) {

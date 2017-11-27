@@ -25,9 +25,9 @@ media:
     entrypoint: /bin/bash
     dockerfile: Dockerfile.build
     command: -c "make media && sleep infinity"
-    working_dir: /go/src/github.com/shipyard/shipyard
+    working_dir: /go/src/github.com/opsforgeio/shipyard
     volumes:
-        - "/go/src/github.com/shipyard/shipyard/controller/static"
+        - "/go/src/github.com/opsforgeio/shipyard/controller/static"
 
 controller:
     build: .

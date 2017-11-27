@@ -1,14 +1,14 @@
 package commands
 
 import (
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/shipyard/shipyard/auth/builtin"
-	"github.com/shipyard/shipyard/auth/ldap"
-	"github.com/shipyard/shipyard/controller/api"
-	"github.com/shipyard/shipyard/controller/manager"
-	"github.com/shipyard/shipyard/utils"
-	"github.com/shipyard/shipyard/version"
+	"github.com/opsforgeio/shipyard/auth/builtin"
+	"github.com/opsforgeio/shipyard/auth/ldap"
+	"github.com/opsforgeio/shipyard/controller/api"
+	"github.com/opsforgeio/shipyard/controller/manager"
+	"github.com/opsforgeio/shipyard/utils"
+	"github.com/opsforgeio/shipyard/version"
 )
 
 var (

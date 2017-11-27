@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gorilla/mux"
 	"github.com/nu7hatch/gouuid"
-	"github.com/shipyard/shipyard"
+	"github.com/opsforgeio/shipyard"
 )
 
 func (a *Api) createConsoleSession(w http.ResponseWriter, r *http.Request) {

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/shipyard/shipyard/auth"
-	"github.com/shipyard/shipyard/controller/manager"
+	"github.com/sirupsen/logrus"
+	"github.com/opsforgeio/shipyard/auth"
+	"github.com/opsforgeio/shipyard/controller/manager"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/shipyard/shipyard/auth"
+	log "github.com/sirupsen/logrus"
+	"github.com/opsforgeio/shipyard/auth"
 )
 
 func (a *Api) addServiceKey(w http.ResponseWriter, r *http.Request) {

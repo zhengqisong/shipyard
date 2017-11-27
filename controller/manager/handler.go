@@ -3,10 +3,10 @@ package manager
 import (
 	"fmt"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/samalba/dockerclient"
-	"github.com/shipyard/shipyard"
-	"github.com/shipyard/shipyard/utils"
+	"github.com/opsforgeio/shipyard"
+	"github.com/opsforgeio/shipyard/utils"
 )
 
 type (

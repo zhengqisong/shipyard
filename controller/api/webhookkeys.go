@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gorilla/mux"
-	"github.com/shipyard/shipyard/dockerhub"
+	"github.com/opsforgeio/shipyard/dockerhub"
 )
 
 func (a *Api) webhookKeys(w http.ResponseWriter, r *http.Request) {
