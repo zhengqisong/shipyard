@@ -19,7 +19,7 @@ import (
 	"github.com/opsforgeio/shipyard/auth"
 	"github.com/opsforgeio/shipyard/dockerhub"
 	"github.com/opsforgeio/shipyard/version"
-	"gopkg.in/gorethink/gorethink.v3"
+	r "gopkg.in/gorethink/gorethink.v3"
 )
 
 const (
