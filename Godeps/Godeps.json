@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/shipyard/shipyard",
+	"ImportPath": "github.com/opsforgeio/shipyard",
 	"GoVersion": "go1.5",
 	"GodepVersion": "v62",
 	"Packages": [
