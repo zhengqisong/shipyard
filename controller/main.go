@@ -5,8 +5,8 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/shipyard/shipyard/controller/commands"
-	"github.com/shipyard/shipyard/version"
+	"github.com/opsforgeio/shipyard/controller/commands"
+	"github.com/opsforgeio/shipyard/version"
 )
 
 const (

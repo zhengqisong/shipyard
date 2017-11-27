@@ -15,10 +15,10 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/sessions"
 	"github.com/samalba/dockerclient"
-	"github.com/shipyard/shipyard"
-	"github.com/shipyard/shipyard/auth"
-	"github.com/shipyard/shipyard/dockerhub"
-	"github.com/shipyard/shipyard/version"
+	"github.com/opsforgeio/shipyard"
+	"github.com/opsforgeio/shipyard/auth"
+	"github.com/opsforgeio/shipyard/dockerhub"
+	"github.com/opsforgeio/shipyard/version"
 	r "gopkg.in/dancannon/gorethink.v2"
 )
 
