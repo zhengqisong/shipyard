@@ -12,14 +12,14 @@ import (
 	"time"
 
 	"crypto/tls"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gorilla/sessions"
 	"github.com/samalba/dockerclient"
 	"github.com/opsforgeio/shipyard"
 	"github.com/opsforgeio/shipyard/auth"
 	"github.com/opsforgeio/shipyard/dockerhub"
 	"github.com/opsforgeio/shipyard/version"
-	r "gopkg.in/dancannon/gorethink.v2"
+	r "gopkg.in/gorethink/gorethink.v2"
 )
 
 const (

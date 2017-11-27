@@ -3,7 +3,7 @@ package ldap
 import (
 	"fmt"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/opsforgeio/shipyard/auth"
 	goldap "gopkg.in/ldap.v1"
 	"strings"
