@@ -1,0 +1,33 @@
+{
+	"ImportPath": "github.com/opsforgeio/shipyard",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/docker/go-units",
+			"Comment": "v0.3.2",
+			"Rev": "0dadbb0345b35ec7ef35e228dabb8de89a65bf52"
+		},
+		{
+			"ImportPath": "github.com/samalba/dockerclient",
+			"Rev": "a3036261847103270e9f732509f43b5f98710ace"
+		},
+		{
+			"ImportPath": "github.com/sirupsen/logrus",
+			"Comment": "v1.0.3-19-g95cd2b9",
+			"Rev": "95cd2b9c79aa5e72ab0bc69b7ccc2be15bf850f6"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "b080dc9a8c480b08e698fb1219160d598526310f"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "a204229cd828a74741ee7b5da9bf4794497f85ed"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "a204229cd828a74741ee7b5da9bf4794497f85ed"
+		}
+	]
+}
